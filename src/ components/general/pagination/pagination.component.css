@@ -1,0 +1,56 @@
+.page-item {
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    color: #303030;
+}
+
+.page-item:hover {
+    border: 1px solid #153661;
+}
+
+.page-item.active {
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+    background: #194175;
+    border-radius: 4px;
+    border: 1px solid #194175;
+    color: #ffffff;
+}
+
+.page-item .page-link {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: inherit;
+}
+
+.disabled {
+    cursor: no-drop;
+    border-radius: 4px;
+    background: #EDEDED;
+    border: 1px solid #E0E0E0;
+    margin: 0 5px 0 5px;
+}
+
+.disabled .page-link {
+    background: transparent;
+    color: inherit;
+}
+
+.page-divider {
+    margin: 0 5px 0 5px;
+    background: transparent;
+}
+
+.page-divider .page-link {
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: #194175;
+    font-size: 20px;
+    font-weight: 700;
+}
